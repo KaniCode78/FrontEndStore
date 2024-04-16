@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <header class="header">
         <a href="index.html">
@@ -21,16 +23,43 @@
         <a class="navegacion__enlace " href="./nosotros.html">Nosotros</a>
     </nav>
 
-    <main>
-        <h1>Productos</h1>
+    <main class="contenedor">
+        <h1>Reac JS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="./assets/img/3.jpg" alt="">
+
+            <div class="camisa__contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, labore facilis. Explicabo, nemo! Magni
+                    eos nesciunt pariatur
+                    expedita sed ad quibusdam animi vel, iusto vero labore in iste voluptates nobis!</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-Elige tu Talla--</option>
+                        <option value="">Chica</option>
+                        <option value="">Mediana</option>
+                        <option value="">Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar">
+                </form>
+
+
+            </div>
+
+        </div>
+
+
+
     </main>
 
 
 
-<footer class="footer">
-    <p class="footer__texto">FrontEn Store - Todos los derechos reservados</p>
-</footer>
+    <footer class="footer">
+        <p class="footer__texto">FrontEn Store - Todos los derechos reservados</p>
+    </footer>
 
 
 </body>
+
 </html>
